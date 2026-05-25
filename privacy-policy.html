@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TabSwitch — Tab Manager Privacy Policy</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      color: #222;
+    }
+    h1, h2 { color: #111; }
+    h2 { margin-top: 2rem; border-top: 1px solid #ddd; padding-top: 1.5rem; }
+    a { color: #0a84ff; }
+    .updated { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>TabSwitch — Tab Manager Privacy Policy</h1>
+  <p class="updated">Last updated: May 24, 2026</p>
+
+  <p>
+    TabSwitch — Tab Manager is a Chrome extension that helps you switch between and manage open tabs —
+    including search, site grouping, mute/unmute audio, pause/play videos, and batch tab
+    closing. We respect your privacy. This policy explains what data TabSwitch — Tab Manager handles and how.
+  </p>
+
+  <h2>Data Collection</h2>
+  <p>
+    TabSwitch — Tab Manager <strong>does not collect, transmit, or sell</strong> any personal data.
+    We do not use analytics, advertising, or third-party tracking SDKs.
+  </p>
+
+  <h2>Local Data Only</h2>
+  <ul>
+    <li>
+      <strong>Tab titles and URLs</strong> are read from Chrome's tabs API solely to
+      display them in the switcher overlay. This information stays in your browser's
+      memory and is never sent to any server.
+    </li>
+    <li>
+      <strong>User preferences</strong> (window scope, language, MRU sort order, etc.)
+      are stored locally using <code>chrome.storage</code> on your device.
+    </li>
+    <li>
+      <strong>Screenshot previews</strong> (if you enable this optional feature) are
+      cached in <code>chrome.storage.session</code> and cleared when you close the browser.
+    </li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <p>
+    TabSwitch — Tab Manager requests only the permissions needed for tab switching, tab management,
+    and media control.
+    Scripts are injected only when you press the keyboard shortcut or click the toolbar icon.
+    The <code>activeTab</code> permission lets TabSwitch — Tab Manager capture the currently active tab after
+    you invoke the extension. If you enable screenshot previews, Chrome asks for optional
+    access to regular web pages (<code>http://*/*</code> and <code>https://*/*</code>) so
+    TabSwitch — Tab Manager can cache local thumbnails for tabs you visit.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy? Email us at
+    <a href="mailto:tabswitch@example.com">tabswitch@example.com</a>.
+  </p>
+
+  <h2>隐私政策（简体中文）</h2>
+  <p>
+    TabSwitch — 标签页管理是一款帮助您快速切换与管理 Chrome 标签页的扩展程序，支持搜索、按网站分组、
+    静音/暂停音视频及批量关闭标签页。我们重视您的隐私。
+  </p>
+
+  <h3>数据收集</h3>
+  <p>
+    TabSwitch — 标签页管理 <strong>不收集、不传输、不出售</strong>任何个人数据。
+    我们不使用分析工具、广告或第三方追踪 SDK。
+  </p>
+
+  <h3>仅本地存储</h3>
+  <ul>
+    <li>
+      <strong>标签页标题和 URL</strong> 仅通过 Chrome tabs API 读取，用于在切换器浮层中展示。
+      这些信息保留在浏览器内存中，不会发送到任何服务器。
+    </li>
+    <li>
+      <strong>用户设置</strong>（窗口范围、语言、MRU 排序等）通过
+      <code>chrome.storage</code> 存储在您的本机。
+    </li>
+    <li>
+      <strong>截图预览</strong>（可选功能）缓存在
+      <code>chrome.storage.session</code> 中，关闭浏览器后自动清除。
+    </li>
+  </ul>
+
+  <h3>权限说明</h3>
+  <p>
+    TabSwitch — 标签页管理仅请求标签页切换、标签页管理和媒体控制所需的权限。
+    脚本仅在您按下快捷键或点击工具栏图标时注入。
+    <code>activeTab</code> 权限仅允许 TabSwitch — 标签页管理在您主动调用扩展后截取当前活动标签页。
+    如果您开启截图预览，Chrome 会请求普通网页的可选访问权限（<code>http://*/*</code>
+    和 <code>https://*/*</code>），用于为您访问过的标签页在本地缓存缩略图。
+  </p>
+
+  <h3>联系方式</h3>
+  <p>
+    如有疑问，请发送邮件至
+    <a href="mailto:tabswitch@example.com">tabswitch@example.com</a>。
+  </p>
+</body>
+</html>
